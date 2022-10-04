@@ -1,0 +1,17 @@
+@use '~@fontsource/roboto-condensed/index.css';
+@use '~@fontsource/roboto-flex/index.css';
+@use '~@fontsource/roboto-mono/index.css';
+@use '~@fontsource/roboto-serif/index.css';
+@use '~@fontsource/roboto-slab/index.css';
+@use '~@fontsource/roboto/index.css';
+
+$font-family--body: 'Roboto', Arial, sans-serif;
+$font-family--heading: 'Roboto Condensed', 'Arial Narrow', serif;
+
+$font-size--base: 16px;
+$line-height--base: 1.5;
+
+$font-weight--light: 100;
+$font-weight--normal: 400;
+$font-weight--bold: 700;
+$font-weight--heavy: 900;

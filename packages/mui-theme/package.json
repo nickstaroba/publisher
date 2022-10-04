@@ -1,0 +1,21 @@
+{
+  "name": "@eterna/mui-theme",
+  "version": "0.0.0",
+  "description": "Eterna Design System MUI Theme",
+  "homepage": "https://github.com/nickstaroba/eterna#readme",
+  "bugs": {
+    "url": "https://github.com/nickstaroba/eterna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickstaroba/eterna.git"
+  },
+  "license": "MIT",
+  "author": "Nick Staroba",
+  "main": "index.js",
+  "peerDependencies": {
+    "@mui/material": "5.x",
+    "react": "18.x",
+    "react-dom": "18.x"
+  }
+}
