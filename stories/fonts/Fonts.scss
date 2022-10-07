@@ -1,0 +1,24 @@
+@use "../../packages/style-utilities/src/index" as e;
+@use "../FlexGrid/FlexGrid";
+
+.Fonts {
+  font-family: e.$font-family--body;
+
+  .example-component {
+    background: e.grayscale(5);
+    padding: e.px(12);
+  }
+
+  .light {
+    font-weight: e.$font-weight--light;
+  }
+  .normal {
+    font-weight: e.$font-weight--normal;
+  }
+  .bold {
+    font-weight: e.$font-weight--bold;
+  }
+  .heavy {
+    font-weight: e.$font-weight--heavy;
+  }
+}

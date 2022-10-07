@@ -1,0 +1,28 @@
+@use "../../packages/style-utilities/src/index" as e;
+@use "../FlexGrid/FlexGrid";
+
+.Px {
+  font-family: e.$font-family--body;
+
+  .px-scale {
+    display: flex;
+  }
+
+  .size {
+    box-sizing: border-box;
+    width: calc(100% / 14);
+  }
+
+  @each $size in e.$allowed-sizes {
+    .px-font-size-#{$size} {
+      font-size: e.px($size);
+    }
+  }
+
+  @each $size in e.$allowed-sizes {
+    .px-height-#{$size} {
+      background: e.grayscale($size);
+      height: e.px($size);
+    }
+  }
+}

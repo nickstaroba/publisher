@@ -1,4 +1,5 @@
 .idea/
-packages/
+dist/
 CHANGELOG.md
 package-lock.json
+stats.html

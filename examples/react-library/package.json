@@ -8,7 +8,7 @@
     "@eterna/typescript-config": "1.0.1",
     "@eterna/webpack-config-react": "0.2.0",
     "@eterna/webpack-config-typescript": "3.0.0",
-    "@eterna/react-library": "file:../../packages/react-library/",
+    "@eterna/react-library": "file:../../packages/react-library/dist",
     "react": "18.x",
     "react-dom": "18.x",
     "webpack-merge": "5.x"

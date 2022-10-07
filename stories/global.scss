@@ -1,0 +1,40 @@
+@use "../node_modules/normalize.css/normalize.css";
+@use "../packages/style-utilities/src/index" as e;
+
+html {
+  line-height: e.$line-height--base;
+}
+
+body,
+#root {
+  min-height: 100vh;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: e.$font-family--heading;
+  font-weight: e.$font-weight--normal;
+  line-height: 1;
+  margin: e.px(24) 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:only-child {
+    margin: 0;
+  }
+}
+
+p {
+  margin: 0 0 e.px(24);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

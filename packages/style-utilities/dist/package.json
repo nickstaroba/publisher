@@ -4,10 +4,6 @@
   "description": "Eterna Design System Style Utilities",
   "license": "",
   "author": "Nick Staroba",
-  "scripts": {
-    "build": "gulp clean copy build",
-    "draft": "echo draft"
-  },
   "dependencies": {
     "@fontsource/roboto": "4.5.8",
     "@fontsource/roboto-condensed": "4.5.9",
@@ -17,18 +13,5 @@
     "@fontsource/roboto-slab": "4.5.9",
     "normalize.css": "8.0.1",
     "sass-mq": "5.0.1"
-  },
-  "devDependencies": {
-    "@babel/core": "7.14.8",
-    "@babel/plugin-transform-runtime": "7.14.5",
-    "@babel/preset-env": "7.14.8",
-    "@babel/register": "7.14.5",
-    "@babel/runtime": "7.14.8",
-    "@eterna/babel-config-javascript": "0.1.0",
-    "del": "6.0.0",
-    "gulp": "4.0.2",
-    "gulp-concat": "2.6.1",
-    "gulp-json-editor": "2.5.6",
-    "sass": "1.37.0"
   }
 }

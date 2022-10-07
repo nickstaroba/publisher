@@ -1,0 +1,22 @@
+@use "../../packages/style-utilities/src/index" as e;
+
+.Breakpoints {
+  font-family: e.$font-family--body;
+
+  table {
+    background: e.grayscale(10);
+    border-collapse: collapse;
+
+    th {
+      border: 1px solid e.grayscale(0);
+      padding: 12px;
+      text-align: left;
+    }
+
+    td {
+      border: 1px solid e.grayscale(0);
+      padding: 6px 12px;
+      min-width: e.px(60);
+    }
+  }
+}

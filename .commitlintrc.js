@@ -1,1 +1,1 @@
-module.exports = { extends: ['@eterna/commitlint-config'] };
+module.exports = { extends: ["@eterna/commitlint-config"] };

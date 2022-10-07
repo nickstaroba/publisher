@@ -1,0 +1,17 @@
+@use "sass:color";
+
+@function grayscale($level) {
+  $min: 0;
+  $max: 100;
+  @if $level < $min or $level > $max {
+    @warn "gray: '#{$level}' out of range: #{$min}-#{$max}";
+    $level: 100;
+  }
+  @return color.scale(#fff, $lightness: $level * -1%);
+}
+
+@for $i from 0 through 100 {
+  .grayscale-level-#{$i} {
+    background: grayscale($i);
+  }
+}
